@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7063381640890565910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4395485743930507197}
+  - component: {fileID: 4463420296583829313}
+  - component: {fileID: 5736238675203730961}
+  - component: {fileID: 5255916486495731775}
+  - component: {fileID: -6758484826116926084}
+  - component: {fileID: 1287353557041578731}
+  - component: {fileID: 2499018407664373502}
+  - component: {fileID: 2691996470769047621}
+  m_Layer: 0
+  m_Name: SINGLETONS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4395485743930507197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063381640890565910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4463420296583829313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063381640890565910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1004195d293ee44eabd6798e50726bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  State: 0
+  mouseOverUI: 0
+  sysHour: 19
+--- !u!114 &5736238675203730961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063381640890565910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8173abe67429476449706b547e511871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playState: 0
+  player: {fileID: 0}
+  playerPrefabList: []
+  destructionPoint: {fileID: 0}
+  continueCost: fa000000f4010000e8030000dc050000d0070000
+  continueCostIndex: 0
+  playerIsReady: 0
+  gameModeIndex: 0
+--- !u!114 &5255916486495731775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063381640890565910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5570abb553a13cd4cb96dbac6caab03d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-6758484826116926084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063381640890565910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad442c071ca66324090ecee636db7b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpCount: 0
+  miniGameLevel: 3
+  baseMiniGameLevel: 0
+  baseXP: 0
+  planetXP: 10
+  satelliteXP: 20
+--- !u!114 &1287353557041578731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063381640890565910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e99b788c129683041879eb0605d30b2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateTimer: 0
+  updateTimerMax: 0
+--- !u!114 &2499018407664373502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063381640890565910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae88befff645e04c94a15886baa1c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24300002, guid: 883acc736471c264b89734c61dc10c87, type: 2}
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: c7568ccca4dd54e4d884891393c14684, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: planet_touch
+    clip: {fileID: 8300000, guid: 8f0e60d40aace9f4a9faec515dd9e2e4, type: 3}
+    volume: 0.15
+    pitch: 0.8
+    loop: 0
+    source: {fileID: 0}
+  - name: satellite_touch
+    clip: {fileID: 8300000, guid: f2d13b25d9b08054aae9132d6764190d, type: 3}
+    volume: 0.2
+    pitch: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: coin_touch
+    clip: {fileID: 8300000, guid: 4625d3be1a5dda2409928c625b4ee0ce, type: 3}
+    volume: 0.2
+    pitch: 0.76
+    loop: 0
+    source: {fileID: 0}
+  - name: levelup
+    clip: {fileID: 8300000, guid: 330e860ef63bc254cba98a7bb098f3de, type: 3}
+    volume: 0.4
+    pitch: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: asteroid_touch
+    clip: {fileID: 8300000, guid: 18152174adbdb7f49b16b4f309fbdfe7, type: 3}
+    volume: 0.255
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+--- !u!114 &2691996470769047621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063381640890565910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e48cacf482172f439b24a073bf6af3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
